@@ -53,7 +53,23 @@ If the player does not get the order correct, a monsterish sound will emerge fro
   <img src="https://raw.githubusercontent.com/rasbot/foreboding/master/Images/painting_wrong.gif" width="850" height="auto"/>
 </div>
 
-The vast majority of my time was spent testing experimental interactions, most of which did not feel right or work out how I had hoped. My goal was to convey foreboding through different types of interactions while keeping things unclear as to if there is something sinister lurking in the 
+### Shrinking Room
+
+One room has a small cabinet across from the door where the player enters. As the player walks across the room, they slowly shrink. The size of the player is proporitional to their distance from the cabinet, so if they stop anywhere, they will not change size. If they walk back towards the door, they will grow. Once the player reaches the cabinet, they are the small enough to enter it. Inside the cabinet is an exact copy of the main room, and the player can continue to shrink as they approach the even smaller cabinet.
+
+This room gives an interesting sense of scale that in VR is very different from any experience one would have outside of VR. 
+
+### Underground Chamber with Alter
+
+In the underground chamber, there are hallways surrounding it, with short pillars in the 4 corners. For each page of the Necronomicon the player obtains, if they reach out above a pillar, one of the pages will appear floating above the pillar. Once all 4 pages are placed, and the player enters the central chamber, the ending of the game starts. The chamber door all close and if the player has read every page in the journal, the chamber will fill with fog and the player will appear on a never ending plane of fog where Cthulhu appears and slowly comes toward the player...ending the game.
+
+If all pages were not found, the chamber will contain a conglomeration of glowing spheres, and giant creatures will appear, surrounding the player...ending the game.
+
+## General Notes
+
+The vast majority of my time was spent testing experimental interactions, most of which did not feel right or work out how I had hoped. My goal was to convey a sense of foreboding through different types of interactions while keeping things unclear as to if there is something sinister lurking in the darkness and if the player is safe.
+
+One room I had made had a bunch of rotting fabric strips, and as the player walked through, the strips would bump into the player, which was very eerie and was eventually removed for two reasons. One being that in that section of the game, performance was bottlenecked by having too many collisions and framerates would drop. Another reason was that in player testing, I was told that the feeling of things hitting your face were not pleasant and I only wanted players to feel mildly uncomfortable and not have any reactions that would make them want to remove the VR headset.
 
 **Here is a link to a video walkthrough of the game:**
 
